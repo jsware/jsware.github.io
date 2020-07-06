@@ -1,10 +1,10 @@
 ---
 layout: post
+date: 2020-05-19
 title: "Bashing out Spaces"
-date: 2019-05-19 22:22
-categories: Bash Shell Scripting
+description: "Here's a quick way to trim leading and trailing spaces from bash variables in a script."
 ---
-![Bash: The Bourne-Again Shell](http://www.jsware.io/images/bash.jpg)
+![Bash: The Bourne-Again Shell](/public/images/bash.jpg)
 
 There’s no need to use ``tr``, ``sed`` and ``awk`` to trim whitespace from variables as per [these examples](https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable) (NB: one of the popular options is described here  – but not the most popular at the time of writing).
 

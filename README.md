@@ -1,2 +1,0 @@
-# jsware
-JSWare
