@@ -1,4 +1,31 @@
-theme: jekyll-theme-minimal
-title: JSWare.io
-description: The pain of low quality far outlasts the joy of low price
-logo: http://www.jsware.io/images/logo.png
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            JSWare.io
+description:      'The pain of low quality far outlasts the joy of low price.'
+tagline:          'len(pain(low.quality))>len(joy(low.price))'
+logo:             /public/images/logo.png
+url:              http://jsware.io
+baseurl:          /
+
+my:
+  name:           'John Scott'
+  why:            'To find the best quality, affordable solutions so the pain of low quality does not outlast the joy of low price.'
+
+paginate:         5
+
+# Custom vars
+google:
+  analytics:
+
+social:
+  twitter:        https://twitter.com/jsware
+  linkedin:       https://linkedin.com/in/johnscottuk
+
+github:
+  repo:           https://github.com/jsware/
