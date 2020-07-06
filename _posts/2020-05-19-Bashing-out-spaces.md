@@ -3,6 +3,7 @@ layout: post
 date: 2020-05-19
 title: "Bashing out Spaces"
 description: "Here's a quick way to trim leading and trailing spaces from bash variables in a script."
+tags: [Bash, Scripting]
 ---
 ![Bash: The Bourne-Again Shell](/public/images/bash.jpg)
 
