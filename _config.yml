@@ -29,3 +29,5 @@ social:
 
 github:
   repo:           https://github.com/jsware/
+
+theme: jekyll-theme-minimal
