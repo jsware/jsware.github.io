@@ -4,6 +4,7 @@ author: John Scott
 date: 2020-01-01
 title: "The pain of low quality far outlasts the joy of low price"
 description: "Welcome to 2020! What is len(pain(low.quality)) > len(joy(low.price)) anyway?"
+tags: Welcome
 ---
 **Welcome to 2020.**
 
