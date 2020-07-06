@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+theme:            minima
 highlighter:      pygments
 
 # Permalinks
@@ -29,5 +29,3 @@ social:
 
 github:
   repo:           https://github.com/jsware/
-
-theme: jekyll-theme-minimal
