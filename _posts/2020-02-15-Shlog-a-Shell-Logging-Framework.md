@@ -1,19 +1,20 @@
 ---
 layout: post
 date: 2020-02-15
-title: "A shell script logging framework."
+title: "A shell script logging framework"
 description: "The ShLog framework provides a set of logging functions for shell scripts and a wrapper for running existing scripts."
 tags: [Bash, Scripting]
 ---
-A shell script logging framework. Check out the framework [here](https://github.com/jsware/shlog).
+"`ShLog`" is a shell script logging framework. Check out the framework [here](https://github.com/jsware/shlog).
 
 (**Pronunciation**: How the great Sean Connery might say the word '*slog*').
 
-The `ShLog` framework provides a set of logging functions for shell scripts. If you are writing a shell script, you can `source shloglib.sh` at the beginning of your script makes a set of `ShLog*` functions available.
+The `ShLog` framework provides a set of logging functions for shell scripts. If you are writing a shell script, you can `source shloglib.sh` at the beginning of your script, making a set of `ShLog*` functions available.
 
 Additionally a `shlog` wrapper script is available to capture existing script output into rotating log files without modification.
 
 ## ShLogging functions
+
 * `ShLogError` outputs messages prefixed with ERROR: to *stderr*;
 * `ShLogWarning` outputs messages prefixed with WARNING: to *stderr*;
 * `ShLogNotice` outputs messages prefixed with NOTICE: to *stdout*;
@@ -65,9 +66,9 @@ produces the log output with messages inside the function > indented inline with
 Notice how the output within the function is indented. Recursion produces more indentation!
 
 ## Using the shlog wrapper script
-The shlog wrapper script can capture script output to a rotating set of log files without modification of the original script.
+The `shlog` wrapper script can capture script output to a rotating set of log files without modification of the original script.
 
-The shlog wrapper script takes the following options:
+The `shlog` wrapper script takes the following options:
 ```
 Usage: shlog [Options] [-v] [-x] Command [CommandArguments]
 Run a command, logging output to rotating log files.
@@ -86,4 +87,4 @@ Arguments control the name, size and number of rotating log files. Additionally 
 
 The `shlog` script can be run in verbose, or debug to output progression of the `shlog` wrapper script (this does not affect the output of the logged script - this could be run in quiet mode).
 
-Happy shlogging! Check out the framework [here](https://github.com/jsware/shlog).
+Happy shlogging! See the [README](https://github.com/jsware/shlog/blob/master/README.md) for more information.
