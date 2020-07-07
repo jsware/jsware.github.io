@@ -14,7 +14,7 @@ description:      'The pain of low quality far outlasts the joy of low price.'
 tagline:          'len(pain(low.quality))>len(joy(low.price))'
 logo:             /public/images/logo.png
 url:              http://jsware.io
-baseurl:          "/"
+baseurl:          ""
 
 my:
   name:           'John Scott'
