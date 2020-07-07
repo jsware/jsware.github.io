@@ -242,8 +242,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
-  jekyll-feed
+  github-pages (~> 206)
+  jekyll-feed (~> 0.13.0)
   minima
 
 BUNDLED WITH
