@@ -5,8 +5,10 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post"><h1 class="post-title">{{ post.title }}</h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% if post.image %}<a href="{{ post.url }}"><img style="float:left;width:33%;margin-right:1%" src="{{ post.image }}"/></a>{% endif %}
     {{ post.description }} <a href="{{ post.url }}">Read more...</a>
+    <p style="clear:both;"/>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
   </div>
   {% endfor %}
 </div>

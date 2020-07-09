@@ -4,6 +4,7 @@ date: 2020-06-22
 title: "The New Bible for IT Architects"
 description: "It is rare these days for me to read a book from cover to cover. This was a welcome exception."
 tags: [Software,Architecture,Book]
+image: /public/images/sw-arch-elevator.png
 ---
 I have just finished reading [The Software Architect Elevator](https://www.amazon.co.uk/Software-Architect-Elevator-Redefining-Architects/dp/1492077542) by Gregor Hohpe. It is rare these days for me to read a book from cover to cover. This was a welcome exception.
 

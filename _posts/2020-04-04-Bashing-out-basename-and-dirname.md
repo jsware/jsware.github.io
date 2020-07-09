@@ -5,6 +5,7 @@ date: 2020-04-04
 title: "Bashing out basename and dirname"
 description: "How to get the path and filename in a bash shell script without using basename and dirname."
 tags: [Bash, Scripting]
+image: /public/images/bash.jpg
 ---
 ![Bash: The Bourne-Again Shell](/public/images/bash.jpg)
 
