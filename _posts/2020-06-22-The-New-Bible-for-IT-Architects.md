@@ -34,6 +34,6 @@ I also like the way Gregor links our world of IT Architecture to [The Matrix](ht
 
 Gregor even at one point draws a fun visual comparison between Vint Cerf (one of the key architects of the Internet) and The Matrix Architect.
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Dr_Vint_Cerf_ForMemRS.jpg" alt="Vint Cerf" style="float: left; width: 26%; margin-right: 1%"/><img src="https://cdn3.whatculture.com/images/2016/09/9929efba001da5b3-600x338.jpg" alt="The Architect" style="float: left; width: 70%; margin-right: 0; margin-bottom: 0.5em;"/>|
+|<img src="/public/images/dr-vint-cerf.jpg" alt="Vint Cerf" style="float:left;width:27%;margin-right:1%"/><img src="/public/images/matrix-architect.jpg" alt="Matrix Architect" style="float:left;width:71%;"/>|
 
 I hope this book becomes the bible for IT architects like many other books have become the bible for their domains - right back to “[The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628)” by K&R, “[Design Patterns](https://www.amazon.co.uk/Design-patterns-elements-reusable-object-oriented/dp/0201633612)” by the Gang of Four and “[Enterprise Integration Patterns](https://www.amazon.co.uk/Enterprise-Integration-Patterns-Designing-Addison-Wesley/dp/0321200683)” by Hohpe & Woolf.
