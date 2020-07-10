@@ -22,7 +22,7 @@ paginate:         5
 
 # Custom vars
 google:
-  analytics:
+  analytics:      "UA-29106762-2"
 
 social:
   twitter:        https://twitter.com/jsware
