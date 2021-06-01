@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
-
+gem "activesupport", ">= 4.1.11"  # CVE-2015-3227
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
