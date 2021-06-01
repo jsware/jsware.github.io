@@ -1,20 +1,21 @@
 ---
-layout: post
-author: John Scott
-date: 2020-04-04
 title: "Bashing out basename and dirname"
-description: "How to get the path and filename in a bash shell script without using basename and dirname."
-tags: [Bash, Scripting]
-image: /public/images/bash.jpg
+categories:
+  - Blog
+tags:
+  - Bash
+header:
+  teaser: /assets/images/bash.jpg
 ---
-![Bash: The Bourne-Again Shell](/public/images/bash.jpg)
-
 To find out the file and path components of a full filename, code similar to the following is often used:
 ```sh
 fullname="/path/to/filename"
 filename=$(basename "$fullname")
 pathname=$(dirname "$fullname")
 ```
+
+![Bash: The Bourne-Again Shell](/assets/images/bash.jpg)
+
 Doing this means subprocesses are spawned to run the ``basename`` and ``dirname`` commands, capturing their output and assigning it to the filename and pathname variables.
 
 You can avoid using ``basename`` or ``dirname``. The following will help:

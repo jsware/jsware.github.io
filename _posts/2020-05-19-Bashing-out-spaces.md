@@ -1,14 +1,15 @@
 ---
-layout: post
-date: 2020-05-19
 title: "Bashing out Spaces"
-description: "Here's a quick way to trim leading and trailing spaces from bash variables in a script."
-tags: [Bash, Scripting]
-image: /public/images/bash.jpg
+categories:
+  - Blog
+tags:
+  - Bash
+header:
+  teaser: /assets/images/bash.jpg
 ---
-![Bash: The Bourne-Again Shell](/public/images/bash.jpg)
-
 There’s no need to use ``tr``, ``sed`` and ``awk`` to trim whitespace from variables as per [these examples](https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable) (NB: one of the popular options is described here  – but not the most popular at the time of writing).
+
+![Bash: The Bourne-Again Shell](/assets/images/bash.jpg)
 
 We’ll use ``OPTARG`` as the variable, purely because I used it to strip spaces when parsing options in a script.
 

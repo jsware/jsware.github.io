@@ -1,14 +1,21 @@
 ---
-layout: post
-date: 2020-06-22
 title: "The New Bible for IT Architects"
-description: "It is rare these days for me to read a book from cover to cover. This was a welcome exception."
-tags: [Software,Architecture,Book]
-image: /public/images/sw-arch-elevator.png
+categories:
+  - Blog
+tags:
+  - Architecture
+  - Books
+header:
+  teaser: /assets/images/sw-arch-elevator.jpg
+  overlay_image: /assets/images/sw-arch-elevator.jpg
+  show_overlay_excerpt: false
+  actions:
+    - label: "More Info"
+      url: "https://www.amazon.co.uk/Software-Architect-Elevator-Redefining-Architects/dp/1492077542"
 ---
 I have just finished reading [The Software Architect Elevator](https://www.amazon.co.uk/Software-Architect-Elevator-Redefining-Architects/dp/1492077542) by Gregor Hohpe. It is rare these days for me to read a book from cover to cover. This was a welcome exception.
 
-![The Software Architect Elevator](/public/images/sw-arch-elevator.png)
+![The Software Architect Elevator](/assets/images/sw-arch-elevator.jpg)
 
 Very well written. Engaging throughout with many useful insights into what architecture is and what it means to be an IT architect in today’s corporate world.
 
@@ -34,6 +41,6 @@ I also like the way Gregor links our world of IT Architecture to [The Matrix](ht
 
 Gregor even at one point draws a fun visual comparison between Vint Cerf (one of the key architects of the Internet) and The Matrix Architect.
 
-|<img src="/public/images/dr-vint-cerf.jpg" alt="Vint Cerf" style="float:left;width:27%;margin-right:1%"/><img src="/public/images/matrix-architect.jpg" alt="Matrix Architect" style="float:left;width:71%;"/>|
+|<img src="/assets/images/dr-vint-cerf.jpg" alt="Vint Cerf" style="float:left;width:27%;margin-right:1%"/><img src="/assets/images/matrix-architect.jpg" alt="Matrix Architect" style="float:left;width:71%;"/>|
 
 I hope this book becomes the bible for IT architects like many other books have become the bible for their domains - right back to “[The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628)” by K&R, “[Design Patterns](https://www.amazon.co.uk/Design-patterns-elements-reusable-object-oriented/dp/0201633612)” by the Gang of Four and “[Enterprise Integration Patterns](https://www.amazon.co.uk/Enterprise-Integration-Patterns-Designing-Addison-Wesley/dp/0321200683)” by Hohpe & Woolf.

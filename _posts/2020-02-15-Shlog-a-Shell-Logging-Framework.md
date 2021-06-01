@@ -1,10 +1,12 @@
 ---
-layout: post
-date: 2020-02-15
 title: "A shell script logging framework"
-description: "The ShLog framework provides a set of logging functions for shell scripts and a wrapper for running existing scripts."
-tags: [Bash, Scripting]
-image: /public/images/log-file.png
+categories:
+  - Blog
+tags:
+  - Bash
+header:
+  teaser: /assets/images/log-file.png
+toc: true
 ---
 "`ShLog`" is a shell script logging framework. Check out the framework [here](https://github.com/jsware/shlog).
 
