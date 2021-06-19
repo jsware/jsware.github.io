@@ -1,9 +1,42 @@
 main:
-  - title: "Posts"
-    url: /posts/
+  - title: "About"
+    url: /about.html
+  - title: "T-800"
+    url: /terminator/
+    description: Terminator T-800 build.
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about.html
+  - title: "Posts"
+    url: /posts/
+
+t800:
+  - title: T-800 Build Diary
+    children:
+      - title: The T-800
+        url: /terminator/intro.html
+      - title: Arrival
+        url: /terminator/arrival.html
+  - title: Packs 1-6
+    children:
+      - title: Tools
+        url: /terminator/tools.html
+      - title: Half Way There
+        url: /terminator/half-way.html
+  - title: Pack 7
+    children:
+  - title: Pack 8
+    children:
+  - title: Pack 8
+    children:
+  - title: Pack 9
+    children:
+  - title: Pack 10
+    children:
+  - title: Pack 11
+    children:
+  - title: Pack 12
+    children:
+  - title: Plasma Rifle
+    children:

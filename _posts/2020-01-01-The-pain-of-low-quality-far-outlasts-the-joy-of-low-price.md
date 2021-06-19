@@ -2,7 +2,8 @@
 title: "The pain of low quality far outlasts the joy of low price"
 categories:
   - Blog
-tags: General
+tags:
+  - General
 header:
   teaser: /assets/images/franklin-quote.jpg
 ---

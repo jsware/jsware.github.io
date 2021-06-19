@@ -9,9 +9,8 @@ repository: "jsware/jsware.github.io"
 name: &me "John Scott"
 email:
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Musings of an IT Architect interested in APIs, Integration and Microservices
+  who is also a Sci-Fi enthusiast.
 twitter_username: JohnScottUK
 github_username: jsware
 linkedin_username: JohnScottUK
@@ -28,10 +27,17 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: pretty
-paginate: 8 
+paginate: 8
 paginate_path: /page:num/
 timezone: Europe/London
 
+breadcrumbs: true
+
+collections:
+  terminator:
+    output: true
+    permalink: /collections/:collection/:title
+      
 include:
   - _pages
 
@@ -103,6 +109,9 @@ analytics:
     tracking_id: "UA-29106762-2"
     anonymize_ip: false
 
+feed:
+  excerpt_only: true
+
 defaults:
   # _posts
   - scope:
@@ -123,6 +132,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # T-800 pages
+  - scope:
+      path: ""
+      type: terminator
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: "t800"
 
 category_archive:
   type: liquid

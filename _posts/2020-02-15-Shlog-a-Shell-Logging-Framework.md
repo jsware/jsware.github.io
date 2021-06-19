@@ -1,7 +1,7 @@
 ---
 title: "A shell script logging framework"
 categories:
-  - Blog
+  - Programming
 tags:
   - Bash
 header:

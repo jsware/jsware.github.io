@@ -1,7 +1,7 @@
 ---
 title: "The New Bible for IT Architects"
 categories:
-  - Blog
+  - Reviews
 tags:
   - Architecture
   - Books

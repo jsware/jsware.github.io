@@ -1,11 +1,11 @@
 ---
 title: "Bashing out basename and dirname"
 categories:
-  - Blog
+  - Programming
 tags:
   - Bash
 header:
-  teaser: /assets/images/bash.jpg
+  teaser: /assets/images/gnu-bash.jpg
 ---
 To find out the file and path components of a full filename, code similar to the following is often used:
 ```sh
