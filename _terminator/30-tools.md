@@ -24,6 +24,7 @@ Along with the PH00 cross-point screwdriver, I have found myself also using:
 * A __small file__ to smooth off the cutting points.
 * I also find __small round-nodes pliers__ (those with curved ends) to place the small nuts into recesses
 * __Tweezers__ also help drop nuts and screws into hard to reach locations.
+* A __Cutting Mat__ to work on. I had one from [Hobby Craft](https://www.hobbycraft.co.uk/self-healing-cutting-mat-a3/572007-1000).
 * Along the way, Agora provide a __small Allen key__ for various fixings.
 
 ![T0.1 Little Brother](/assets/images/t800/little-brother.jpg)
