@@ -1,9 +1,9 @@
 ---
 title: "A shell script logging framework"
 categories:
-  - Programming
-tags:
   - Bash
+tags:
+  - Programming
 header:
   teaser: /assets/images/log-file.png
 toc: true

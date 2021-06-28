@@ -1,9 +1,9 @@
 ---
 title: "Bashing out basename and dirname"
 categories:
-  - Programming
-tags:
   - Bash
+tags:
+  - Programming
 header:
   teaser: /assets/images/gnu-bash.jpg
 ---
@@ -27,20 +27,30 @@ echo ${fullname##*/}
 # Dirname: Get everything before the last /
 echo ${fullname%/*}
 ```
-There are some caveats with this. The variable must have a path separator in it. Whilst it is rather cryptic, it avoids spawning sub-processes for ``dirname`` and ``basename``. ``Basename`` can also strip the extension.
+There are some caveats with this. The variable must have a path separator in it. This can be easily fixed with:
 
-How does this work…
+```sh
+[[ ${fullname} != */* ]] && fullname="./$fullname"
+```
 
-* ``$fullname`` is easy. This is always the variable’s value and ``${fullname}`` just marks the variable substitution. It can be used with script parameters too, such as ``${0}`` (which always seems to include at least one ‘/‘ character).
+This checks for a `/` in `fullname`. If one is missing, prefix it with the current directory. Alternatively you could use `$PWD/$fullname`.
 
-* The ``${fullname##*/}`` variable substitution is a form of ``${var##pattern}`` and ``${fullname%/*}`` is a form of ``${var%pattern}`` [parameter substitutions](https://www.tldp.org/LDP/abs/html/parameter-substitution.html) to remove substrings.
+Whilst the `##*/` and `%/*` are rather cryptic, they avoid spawning sub-processes for ``dirname`` and ``basename``. 
 
-* For basename, ``${fullname##*/}`` removes the *longest* substring from the *front* of the variable (denoted by the ``##`` operator) matching the pattern ‘``*/``‘  – i.e. any character (denoted by ``*``) ending with ‘``/``‘. This leaves everything after the last ‘``/``‘ character – i.e. the ``basename``.
+However, remember that `basename` can strip the extension which needs extra variable substitution with this approach.
 
-* For dirname, ``${fullname%/*}`` removes the *shortest* substring from the *end* of the variable (denoted with the ``%`` operator) matching the pattern ‘``/*``‘ –  a ‘``/``‘ followed by any character (denoted with ``*``). This leaves everything before the last ‘``/``‘ character – the path to the file without trailing path separator  –  i.e. ``/my/path/name`` instead of ``/my/path/name/``.
+How do `${fullname##*/}` and `${fullname%/*}` work?
+
+* ``$fullname`` is easy. This is always the variable’s value and ``${fullname}`` just marks the variable's name. Curly brackets can be used with script parameters too, such as ``${0}`` (which always seems to include at least one ‘/‘ character). We use the curly brackets to perform parameter substitution.
+
+* The ``${fullname##*/}`` expression is a form of ``${var##pattern}`` and ``${fullname%/*}`` is a form of ``${var%pattern}`` [parameter substitutions](https://www.tldp.org/LDP/abs/html/parameter-substitution.html) to remove substrings.
+
+* For a filename, ``${fullname##*/}`` removes the *longest* substring from the *front* of the variable (denoted by the ``##`` operator) matching the pattern ‘``*/``‘  – i.e. any character (denoted by ``*``) ending with ‘``/``‘. This leaves everything after the last ‘``/``‘ character – i.e. the ``basename``.
+
+* For a directory, ``${fullname%/*}`` removes the *shortest* substring from the *end* of the variable (denoted with the ``%`` operator) matching the pattern ‘``/*``‘ –  a ‘``/``‘ followed by any character (denoted with ``*``). This leaves everything before the last ‘``/``‘ character – the path to the file without trailing path separator  –  i.e. ``/my/path/name`` instead of ``/my/path/name/``.
 
 The way I remember whether it’s ``#``, ``##``, ``%`` or ``%%`` is one character for the *shortest* substring and two characters for the *longest* substring. Then hashtags have the hash at the *beginning* whilst percentages have a percent at the *end*. So:
 
-* ``#`` is for removing the *shortest* pattern from the *beginning* of the variable.
+* ``##`` is for removing the *longest* pattern from the *beginning* of the variable (i.e. the directory name).
 
-* ``%%`` is for removing the *longest* pattern from the *end* of the variable.
+* ``%`` is for removing the *shortest* pattern from the *end* of the variable (i.e. the file name).

@@ -1,9 +1,9 @@
 ---
 title: "The New Bible for IT Architects"
 categories:
-  - Reviews
-tags:
   - Architecture
+tags:
+  - Reviews
   - Books
 header:
   teaser: /assets/images/sw-arch-elevator.jpg
