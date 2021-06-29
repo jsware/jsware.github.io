@@ -1,6 +1,6 @@
 ---
 title: "Bashing out script locations"
-excerpt: "$(basename \"${BASH_SOURCE[0]}\") does not always give script its own real location..."
+excerpt: "$(basename \"$0\") does not always give a script its own real location..."
 classes: wide
 categories:
   - Bash
@@ -19,12 +19,12 @@ Then the problems started...
 
 The problem is that `$0` or `${BASH_SOURCE[0]}` refer to the symbolic link, not the script the symbolic link targets. So using `dirname` to access files relative to the real script's location fails to find them.
 
-Using `BASH_SOURCE` is not POSIX compliant, but works for regular scripts and when using `source script.sh` too. So I use that from here.
+Using `BASH_SOURCE` is not POSIX compliant, but works for regular scripts and when using `source script.sh` too. I could use that from here, but for simplicity I will stick with `$0` for now.
 
 Back to the symbolic link problem. Initially, following the symbolic link with `readlink` sounds like an easy fix:
 
 ```sh
-[[ -L ${BASH_SOURCE[0]} ]] && realScript="$(readlink "${BASH_SOURCE[0]}")"
+[[ -L $0 ]] && realScript="$(readlink "$0")"
 ```
 
 This works great if the symbolic link is absolute and points at the real script:
@@ -42,7 +42,45 @@ Links are not always that absolute, so I wanted to include the logic to find the
 1. A "different-directory" relative link (`relative-link.sh -> ../path/to/real-script.sh` or `relative-link.sh -> subdirectory/to/real-script.sh`). These links are relative to the directory the link is in (i.e. not your current working directory).
 1. Directory links for one/more of the parent directies of `real-script.sh`. For example, on Mac the `/tmp` directory is a symbolic link to `/private/tmp`. Any logic must ensure these directory links are resolved. If I call `/tmp/relative-link.sh` or `/tmp/real-script.sh` from scenario #2 or #3 above, the real script would be `/private/tmp/real-script.sh`, not `/tmp/real-script.sh` or `/private/tmp/relative-link.sh`.
 
-The logic I came up with is:
+The simplest logic would be:
+
+```sh
+#!/usr/bin/env bash
+set -o errexit -o errtrace -o nounset -o pipefail # Robust scripting.
+
+origDir="$(pwd)"
+this="$0"
+while [[ -L $this ]]; do
+  cd "$(dirname "$this")"
+  this="$(readlink "$(basename "$this")")"
+done
+scriptName="$(basename "$0")"
+cd "$(dirname "$this")"
+scriptDir="$(pwd)"
+unset this
+cd "$origDir"
+```
+
+Hopefully the above is mostly self explanatory. Setting `scriptName` to the `basename $0` is less confusing when you print help text or messages mentioning the script.
+
+This can be semi-minified into fewer lines:
+
+```sh
+#!/usr/bin/env bash
+set -Eeuo pipefail # Robust scripting.
+origDir="$(pwd)";this="$0"
+while [[ -L $this ]]; do;cd "$(dirname "$this")";this="$(readlink "$(basename "$this")")";done
+scriptName="$(basename "$0")";cd "$(dirname "$this")";scriptDir="$(pwd)";unset this;cd "$origDir"
+```
+
+With the above logic, `scriptName` is the script's initial name and `scriptDir` is the directory the real script is found in.  There are a number of potential issues with this logic:
+
+* The initial directory of the script is lost. This may not be a problem if you are only interested in the real directory.
+* The initial script name is kept, but the real script name is lost (e.g. `my-script.sh -> my-script-1.2.3.sh`). Again, perhaps not a problem depending on your needs. I find using the initial script name is more useful when printing help text or messages, than the real script's name.
+* If any directories in the path to the real script are themselves symbolic links, they remain in the resulting `scriptDir` value (i.e. it's not technically the real directory). Again, this may be OK for your needs.
+* There's lots of spawning of `pwd`, `basename` and `dirname` going on to navigate the chain of links (I don't think `readlink` can be avoided). You might view this as wasteful of resources.
+
+If required, you can address the above issues (and support `source script.sh` with `{BASH_SOURCE[0]}` over `$0`). The logic I came up with is:
 
 ```sh
 #!/usr/bin/env bash
@@ -101,7 +139,11 @@ origScript="${BASH_SOURCE[0]}"  # Save the original script as called (include di
 
 The last line above - `[[ $origScript != */* ]] && origScript="./$origScript"` - ensures that `origScript` contains at least one `/` directory separator character.
 
-Now we have the `origScript` containing at least one directory separator, we can use parameter substitution to get the basic `scriptName` and `scriptDir` used to call the script (`scriptName` value is useful when printing help text or error messages). Parameter substitution avoids spawning `basename` and `dirname` processes. See [this post]({{ baseurl }}/bash/2020/04/04/Bashing-out-basename-and-dirname/) for details.
+Most of the time `$origScript` will contain a path separator - either by running the script relative to the current directory (`./my-script.sh`) or by finding it in the `PATH` (`/usr/local/bin/my-script.sh`). However, if you `export PATH=".:$PATH"` (again - why would you? Perhaps you like Windows... so, defensive programming) then `$0` and `${BASH_SOURCE[0]}` will not include a directory. Not a problem for `dirname` but bad for the variable substitution used.
+
+Now we have the `origScript` containing at least one directory separator, we can use parameter substitution to get the basic `scriptName` and `scriptDir` used to call the script (`scriptName` is useful when printing help text etc).
+
+Parameter substitution avoids spawning `basename` and `dirname` processes. See [this post]({{ baseurl }}/bash/2020/04/04/Bashing-out-basename-and-dirname/) for details.
 
 ```sh
 scriptName="${origScript##*/}"  # Get the script name (strip longest */ from start leaving name).
@@ -166,7 +208,7 @@ A [Bash Minifier](https://bash-minifier.appspot.com/) can produce a single scrip
 ```sh
 cd .;origDir="$PWD";origScript="${BASH_SOURCE[0]}";[[ $origScript != */* ]]&&origScript="./$origScript"
 realScript="$origScript";scriptName="${origScript##*/}";scriptDir="${origScript%/*}"
-while [[ -L $realScript ]];do cd "${realScript%/*}"realScript="$(readlink "${realScript##*/}")";[[ $realScript != */* ]]&&realScript="./$realScript";done
+while [[ -L $realScript ]];do cd "${realScript%/*}";realScript="$(readlink "${realScript##*/}")";[[ $realScript != */* ]]&&realScript="./$realScript";done
 cd -P "${realScript%/*}";realScript="$PWD/${realScript##*/}";realDir="$PWD";realName="${realScript##*/}";cd "$origDir"
 ```
 
@@ -174,4 +216,4 @@ Some might think the above too cryptic and uses dusty corners of the Bash langua
 
 Elsewhere in scripts, I would follow [typical guidelines](https://bash3boilerplate.sh/) - avoiding minified code and cryptic scripts. However, I don't want this boilerplate code to detract from real script's logic.
 
-I leave this readability consideration with you.
+You could stick with the initial script (expanded or on three lines). I leave this readability consideration with you.
