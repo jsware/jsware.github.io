@@ -8,6 +8,12 @@ I currently work for a bank in the UK, specifically working in the area of APIs 
 
 ## My Why
 
+Simon Sinek's "Start with Why" and "Find your Why" messages resonate with me.
+
+{% include video id="7zFeuSagktM" provider="youtube" %}
+
+So I tried to define my why:
+
 > To find the best quality, affordable solutions so the pain of low quality does not outlast the joy of low price.
 
 ## This Site
