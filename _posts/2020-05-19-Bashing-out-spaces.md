@@ -1,12 +1,13 @@
 ---
 title: "Bashing out Spaces"
 excerpt: "There’s no need to use tr, sed and awk to trim whitespace from variables in Bash. Here's how."
+image: &image /assets/images/gnu-bash.jpg
 categories:
   - Bash
 tags:
   - Programming
 header:
-  teaser: /assets/images/gnu-bash.jpg
+  teaser: *image
 ---
 There’s no need to use ``tr``, ``sed`` and ``awk`` to trim whitespace from variables as per [these examples](https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable) (NB: one of the popular options is described here – but not the most popular at the time of writing).
 

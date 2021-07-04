@@ -1,8 +1,9 @@
 ---
 title: "Boxes Boxes"
+image: &image /assets/images/t800/arrival.jpg
 permalink: /terminator/arrival.html
 header:
-  teaser: /assets/images/t800/arrival.jpg
+  teaser: *image
   overlay_image: /assets/images/t800/arrival.jpg
 ---
 (Not) Too long after ordering, a box of boxes arrived.

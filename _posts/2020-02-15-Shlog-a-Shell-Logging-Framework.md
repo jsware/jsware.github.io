@@ -1,11 +1,12 @@
 ---
 title: "A shell script logging framework"
+image: &image /assets/images/log-file.png
 categories:
   - Bash
 tags:
   - Programming
 header:
-  teaser: /assets/images/log-file.png
+  teaser: *image
 toc: true
 ---
 "`ShLog`" is a shell script logging framework. Check out the framework [here](https://github.com/jsware/shlog).

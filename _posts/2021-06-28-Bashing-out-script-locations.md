@@ -1,13 +1,14 @@
 ---
 title: "Bashing out script locations"
 excerpt: "$(basename \"$0\") does not always give a script its own real location..."
+image: &image /assets/images/gnu-bash.jpg
 classes: wide
 categories:
   - Bash
 tags:
   - Programming
 header:
-  teaser: /assets/images/gnu-bash.jpg
+  teaser: *image
 ---
 I was writing a script recently that depends on additional directories relative to the script for supporting files. Initially it worked fine using the path to `$0`.
 

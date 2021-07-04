@@ -64,6 +64,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 author:
   name   : *me
@@ -109,9 +110,6 @@ analytics:
   google:
     tracking_id: "UA-29106762-2"
     anonymize_ip: false
-
-feed:
-  excerpt_only: true
 
 defaults:
   # _posts

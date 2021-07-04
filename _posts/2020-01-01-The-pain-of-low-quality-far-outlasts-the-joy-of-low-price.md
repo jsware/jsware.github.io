@@ -1,11 +1,12 @@
 ---
 title: "The pain of low quality far outlasts the joy of low price"
+image: &image /assets/images/franklin-quote.jpg
 categories:
   - General
 tags:
   - Blog
 header:
-  teaser: /assets/images/franklin-quote.jpg
+  teaser: *image
 ---
 **Welcome to 2020.**
 

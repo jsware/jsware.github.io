@@ -1,13 +1,14 @@
 ---
 title: "The New Bible for IT Architects"
+image: &image /assets/images/sw-arch-elevator.jpg
 categories:
   - Architecture
 tags:
   - Reviews
   - Books
 header:
-  teaser: /assets/images/sw-arch-elevator.jpg
-  overlay_image: /assets/images/sw-arch-elevator.jpg
+  teaser: *image
+  overlay_image: *image
   show_overlay_excerpt: false
   actions:
     - label: "More Info"

@@ -1,8 +1,9 @@
 ---
 title: "Tools of the Trade"
+image: &image /assets/images/t800/tools.jpg
 permalink: /terminator/tools.html
 header:
-  teaser: /assets/images/t800/tools.jpg
+  teaser: *image
   overlay_image: /assets/images/t800/tools.jpg
 ---
 Model assembly needs some tools, only some of which were in my toolbox.

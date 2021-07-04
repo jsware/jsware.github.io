@@ -1,11 +1,12 @@
 ---
 title: "Migrating to Minimal Mistakes"
+image: &image /assets/images/mm-teaser.jpg
 categories:
   - General
 tags:
   - Blog
 header:
-  teaser: /assets/images/mm-teaser.jpg
+  teaser: *image
   overlay_color: "#5e616c"
   overlay_image: /assets/images/minimal-mistakes.jpg
   actions:

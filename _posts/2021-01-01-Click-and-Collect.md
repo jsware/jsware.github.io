@@ -1,12 +1,13 @@
 ---
 title: "From Ring & Reserve to Click and Collect"
+image: &image /assets/images/click-collect.jpg
 classes: wide
 categories:
   - General
 tags:
   - Blog
 header:
-  teaser: /assets/images/click-collect.jpg
+  teaser: *image
 ---
 10 years on I am reminded of [an article I read](https://internetretailing.net/guest-comment/guest-comment/guest-column-click-and-collect---10-years-on) from 2011 about Click & Collect.
 
