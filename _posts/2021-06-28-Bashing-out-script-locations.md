@@ -70,7 +70,7 @@ This can be semi-minified into fewer lines:
 #!/usr/bin/env bash
 set -Eeuo pipefail # Robust scripting.
 origDir="$(pwd)";this="$0"
-while [[ -L $this ]]; do;cd "$(dirname "$this")";this="$(readlink "$(basename "$this")")";done
+while [[ -L $this ]]; do cd "$(dirname "$this")";this="$(readlink "$(basename "$this")")";done
 scriptName="$(basename "$0")";cd "$(dirname "$this")";scriptDir="$(pwd)";unset this;cd "$origDir"
 ```
 
