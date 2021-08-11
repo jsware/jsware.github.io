@@ -9,6 +9,7 @@ tags:
 header:
   teaser: *image
   overlay_image: *image
+  overlay_filter: 0.5
   show_overlay_excerpt: false
   actions:
     - label: "More Info"

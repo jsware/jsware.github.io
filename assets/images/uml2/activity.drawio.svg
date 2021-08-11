@@ -1,0 +1,32 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="121px" height="111px" viewBox="-0.5 -0.5 121 111" content="&lt;mxfile&gt;&lt;diagram id=&quot;ETJ2Vw4Hl5JOb5pwEiDH&quot; name=&quot;Page-1&quot;&gt;jZRNT8MwDIZ/Te/9GF/HMQZckJB24BwSr41I4yr16MavJyFuu7CB1kPVPI5T+33dZtWq3T850TUvqMBkZa72WfWQleVVcefvARwYLMoIaqdVRMUMNvoLGOZMd1pBn2wkREO6S6FEa0FSwoRzOKTbtmjSt3aihhOwkcKc0jetqIn0tryZ+TPouhnfXFxzw60YN3MnfSMUDkeoWmfVyiFSfGr3KzBBu1GXmPf4R3QqzIGlSxKuY8KnMDvubSlJf2o6cH10GJt2uLMKQl6RVfdDowk2nZAhOniXPWuoNRwWTrJti9wvt2hphQbdz1FV/nMFro054lt/ycB7cvgBSYQz+g8gGTQMCy4eHMH+TwGKSVY/joAtkPPN5ZywYCMO6XKYbS1Gr5ojS8d9giepng6exfYPrPd57W9OtD/RHJSfO16iowZrtMKsZ3qsedBB+yFdGl1bz96RCFsfAKuWYerDIR3YSNie23/VjgWFKhJ5e9w5CckEXaC4AyP8bKVHnROQU19R+xMnp4o8tar47QEJVwNx1i8bpjLOOeOX8xcXt8+/rWr9DQ==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="120" height="40" rx="16" ry="16" fill="#ffffc0" stroke="#ff0000" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 20px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Activity
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="60" y="24" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Activity
+                </text>
+            </switch>
+        </g>
+        <path d="M 60 40 L 60 97.76" fill="none" stroke="#ff0000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 55.5 89.88 L 60 98.88 L 64.5 89.88" fill="none" stroke="#ff0000" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>

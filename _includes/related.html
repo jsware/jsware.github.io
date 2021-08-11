@@ -1,0 +1,30 @@
+{% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+{% if page.id and page.related %}
+  {% assign div_wrapper = 0 %}
+  {% assign related_count = 0 %}
+  {% for post in site.documents %}
+    {% if post.url != page.url %}
+      {% assign both = post.tags | concat: post.categories | sort 'title' %}
+      {% for tag in both %}
+        {% if page.tags contains tag or page.categories contains tag %}
+          {% if div_wrapper == 0 %}
+            <div class="page__related">
+              <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+              <div class="grid__wrapper">
+            {% assign div_wrapper = 1 %}
+          {% endif %}
+          {% include archive-single.html type="grid" %}
+          {% assign related_count = related_count | plus: 1 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+      {% if related_count >= max_related %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if div_wrapper > 0 %}
+              </div>
+            </div>
+  {% endif %}
+{% endif %}

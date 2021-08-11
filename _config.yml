@@ -2,6 +2,7 @@
 title: JSWare.io
 subtitle: "The pain of low quality far outlasts the joy of low price"
 
+locale: en_GB
 logo: "/assets/favicons/favicon-32x32.png"
 teaser: "/assets/images/teaser.png"
 repository: "jsware/jsware.github.io"
@@ -36,7 +37,12 @@ breadcrumbs: true
 collections:
   terminator:
     output: true
-    permalink: /collections/:collection/:title
+    permalink: /:title
+    url: /terminator/
+  uml2:
+    output: true
+    permalink: /:title
+    url: /uml2/
       
 include:
   - _pages
@@ -131,6 +137,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      related: true
   # T-800 pages
   - scope:
       path: ""
@@ -139,8 +146,20 @@ defaults:
       layout: single
       author_profile: false
       share: true
+      related: true
       sidebar:
         nav: "t800"
+  # UML2 pages
+  - scope:
+      path: ""
+      type: uml2
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      related: true
+      sidebar:
+        nav: "uml2"
 
 category_archive:
   type: liquid
@@ -148,3 +167,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+compress_html:
+  clippings: []
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: [local]
+  blanklines: false

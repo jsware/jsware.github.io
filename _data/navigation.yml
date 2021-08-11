@@ -1,15 +1,17 @@
 main:
-  - title: "About"
-    url: /about.html
-  - title: "T-800"
-    url: /terminator/
-    description: Terminator T-800 build.
+  - title: "Collections"
+    url: /collections/
+  # - title: "T-800"
+  #   url: /terminator/
+  #   description: Terminator T-800 build.
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Posts"
     url: /posts/
+  - title: "About"
+    url: /about.html
 
 t800:
   - title: T-800 Build Diary
@@ -40,3 +42,56 @@ t800:
     children:
   - title: Plasma Rifle
     children:
+
+uml2:
+  - title: The UML2
+    url: /uml2/
+    children:
+      - title: Introduction
+        url: /uml2/intro.html
+      - title: Overview
+        url: /uml2/overview.html
+  - title: Concepts
+    url: /uml2/concepts.html
+    children:
+      - title: Things
+        url: /uml2/things.html
+      - title: Relationships
+        url: /uml2/relationships.html
+      - title: Diagrams
+        url: /uml2/uml-diagrams.html
+      - title: Common Mechanisms
+        url: /uml2/common-mechanisms.html
+  - title: Views
+    url: /uml2/views.html
+    children:
+      - title: Architectural Views
+        url: /uml2/architectural-views.html
+      - title: UML Views
+        url: /uml2/uml-views.html
+      - title: Structural Classification
+        url: /uml2/structural-classification.html
+      - title: Dynamic Behaviour
+        url: /uml2/dynamic-behaviour.html
+      - title: Physical Layout
+        url: /uml2/physical-layout.html
+      - title: Model Management
+        url: /uml2/model-management.html
+  - title: Diagrams
+    url: /uml2/diagrams.html
+    children:
+      - title: Structural Diagrams
+        url: /uml2/structural-diagrams.html
+      - title: Behavioural Diagrams
+        url: /uml2/behavioural-diagrams.html
+  - title: Applying the UML
+    url: /uml2/applying-uml.html
+    children:
+      - title: Transitioning to UML
+        url: /uml2/transition-to-uml.html
+      - title: Using Visio
+        url: /uml2/using-visio.html
+      - title: Using Draw.IO
+        url: /uml2/using-draw-io.html
+      - title: Using PlantUML
+        url: /uml2/using-platuml.html

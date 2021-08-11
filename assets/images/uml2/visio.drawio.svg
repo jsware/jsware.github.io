@@ -1,0 +1,34 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="327px" height="322px" viewBox="-0.5 -0.5 327 322" content="&lt;mxfile&gt;&lt;diagram id=&quot;Dk-rkD3ecmfVE_LSVLOe&quot; name=&quot;Page-1&quot;&gt;tZbLjpswFIafhi3yFZtlmyYzm1lFmq6d2AlWDUaOc+vT1wQTQgnKVGmChOA/54D9/T4mCZ6Vpzcn6uLDSmUSBOQpwT8ShChn4dwI5ygQ1Apbp2UrwV5Y6t8qiiCqey3VbpDorTVe10NxbatKrf1AE87Z4zBtY83wrbXYqpGwXAszVn9q6YtW5Yj1+rvS26J7M8zyNlKKLjnOZFcIaY83Ep4neOas9e1VeZop07DruLR1i4nodWBOVf4rBXHEB2H2cW5xXP7cTXbr7L5O8PeNrfwyyjDeL0SpTWPip3JSVCLI4xHEQR2U8+p0zx+x6t7VIwhLR9lSeXcOebGKRGjn4e2xtwAjmoI4p+LGAdzxFtH57fXhPZxwEfncZ4UfswqoKqlkJHQstFfLWqyb6DF0QtAKX5oOoDZmZo11l1qMJNvIRt95Z3+pLlLZSt3FyiawTuKDjKUYgvx6ZAOcHKeUU4TznHOcM5SN6ELCUkb7+nwMOqaElgaAIQoZfp579ph7KAi9rx4zF7u63RA2+tT41K7qdoNhaGwKkCRMNOhSu1CobRX0nd03SF5mFOdpRim5HnjgE6QsJRkJVpEcAYTh2KcMpRTTO+7cBp6xhL62FQj9xuazoDvrRYRO6CtbA/IUhQV7PeAAOSIp4ZCS0BrhlFE+Rj7xgAH9NgdzAADlAGL2vBFoZMTnf3UCrjK4+qtPIOJTVtztku4TBx99RN6VOSiv1yIGbsaxuPyeNPvrG93ETjlw85IDAQtucgYQ+Pe2Crf9l/4Su/m7hOd/AA==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="178.31" y="83.59" width="147.76" height="147.76" rx="22.16" ry="22.16" fill="#2d7fd1" stroke="none" pointer-events="none"/>
+        <ellipse cx="170.92" cy="238.73" rx="81.2675" ry="81.2675" fill="#0d4090" stroke="none" transform="rotate(90,170.92,238.73)" pointer-events="none"/>
+        <rect x="119.21" y="24.48" width="118.21" height="118.21" rx="17.73" ry="17.73" fill="#45a7ec" stroke="none" transform="rotate(45,178.31,83.59)" pointer-events="none"/>
+        <rect x="1" y="83.59" width="177.31" height="177.31" rx="26.6" ry="26.6" fill="#000000" stroke="none" transform="translate(2,3)rotate(90,89.66,172.24)" pointer-events="none" opacity="0.25"/>
+        <rect x="1" y="83.59" width="177.31" height="177.31" rx="26.6" ry="26.6" fill="#1b61bd" stroke="none" transform="rotate(90,89.66,172.24)" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 175px; height: 1px; padding-top: 172px; margin-left: 2px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 128px; font-family: Helvetica; color: #FFFFFF; line-height: 1.2; pointer-events: none; font-weight: bold; white-space: normal; word-wrap: normal; ">
+                                V
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="90" y="211" fill="#FFFFFF" font-family="Helvetica" font-size="128px" text-anchor="middle" font-weight="bold">
+                    V
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
