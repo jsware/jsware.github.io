@@ -170,7 +170,7 @@ tag_archive:
 
 compress_html:
   clippings: []
-  comments: ["<!-- ", " -->"]
+  comments: ["<!-- ", "-->"]
   endings: []
   ignore:
     envs: [local]
