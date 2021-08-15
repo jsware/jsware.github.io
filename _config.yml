@@ -6,13 +6,14 @@ locale: en_GB
 logo: "/assets/favicons/favicon-32x32.png"
 teaser: "/assets/images/teaser.png"
 repository: "jsware/jsware.github.io"
+og_image: /assets/images/jsware.png
 
 name: &me "John Scott"
 email:
 description: >-
   Musings of an IT Architect interested in APIs, Integration and Microservices
   who is also a Sci-Fi enthusiast.
-twitter_username: JohnScottUK
+twitter_username: &twitter_name JohnScottUK
 github_username: jsware
 linkedin_username: JohnScottUK
 
@@ -24,7 +25,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: jsware/minimal-mistakes
 
 # Outputting
 permalink: pretty
@@ -92,6 +93,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: &instagram "https://www.instagram.com/jsware"
+
+twitter:
+  username: *twitter_name
 
 footer:
   links:
@@ -170,7 +174,7 @@ tag_archive:
 
 compress_html:
   clippings: []
-  comments: ["<!-- ", "-->"]
+  comments: ["<!-- ", " -->"]
   endings: []
   ignore:
     envs: [local]
