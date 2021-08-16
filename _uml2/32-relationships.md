@@ -34,7 +34,7 @@ There are four kinds of relationships in the UML: associations, dependencies, ge
 
 An *association* is a structural relationship among classes that describe a set of links. A link is a connection among objects that are instances of the classes. In the same way that an object is an instance of a class, a link is an instance of an association. Aggregation is a special kind of association between a whole and its parts. An association is drawn as a solid line.
 
-{% include pop src="/assets/images/uml2/associations.drawio.svg" alt="Associations" class="align-left" width="300" %}
+{% include figure popup=true image_path="/assets/images/uml2/associations.drawio.svg" alt="Associations" class="align-left" width="300" %}
 
 In this diagram an order is made up of 1 or more order lines. A whole order is made up of order line parts in a composition (part-whole) association. This means that an order line cannot exist without an associated order and can be part of only one order.
 
@@ -52,7 +52,7 @@ Associations can be given names, each end can be assigned a role and, in some ci
 
 * An association represents a structural relationship among objects. In many situations it is important to state how many objects may be associated across a link (an instance of an association is called a link). This "how many" is known as the **multiplicity** of the association's role. It represents a range of integers, written as an expression of the minimum and maximum values. For example exactly one (1), zero to one (0..1), zero to many (0..* or just *), or m to n (e.g. 3..5) or an exact number (e.g. 3 or 3..3).
 
-{% include pop src="/assets/images/uml2/association-adornments.drawio.svg" alt="Association Adornments" class="align-right" width="300" %}
+{% include figure popup=true image_path="/assets/images/uml2/association-adornments.drawio.svg" alt="Association Adornments" class="align-right" width="300" %}
 
 If the association end names are specified, or the nature of the association is unambiguous, it is not always necessary to specify the association name. The direction triangle does not denote any form of navigation (see [navigability](#navigability)) or data flow.
 
@@ -64,7 +64,7 @@ A plain association between two classes represents a structural relationship bet
 
 Aggregation and composition are used to represent these special kinds of associations. They are denoted with hollow or solid diamonds anchored to the element representing the whole and the line connecting to the element representing the part(s).
 
-{% include pop src="/assets/images/uml2/aggregation-composition.drawio.svg" alt="Aggregation &amp; Composition" class="align-right" width="300" %}
+{% include figure popup=true image_path="/assets/images/uml2/aggregation-composition.drawio.svg" alt="Aggregation &amp; Composition" class="align-right" width="300" %}
 
 For example, a football team has a number of players. The aggregation relationship represents a "has-a" relationship in that a football team has a number of players in it. Each player may be part of multiple teams such as their local and national teams. A football player may not be a member of any team.
 
@@ -74,7 +74,7 @@ Composition represents a stronger form of aggregation where the lifecycle of the
 
 Given a plain association between two classes, it is possible to conceptually navigate from objects of one kind to objects of another kind. Unless otherwise specified, navigation across an association is bidirectional.
 
-{% include pop src="/assets/images/uml2/navigation.drawio.svg" alt="Navigation" class="align-right" width="300" %}
+{% include figure popup=true image_path="/assets/images/uml2/navigation.drawio.svg" alt="Navigation" class="align-right" width="300" %}
 
 There are circumstances in which you'll want to limit navigation to just one direction. For example, given a user, you'll want to be able to find corresponding Passwords. However, from a Password, you don't want to be able to identify the corresponding User. Navigation can be explicitly shown using an open arrowhead pointing in the direction of the intended navigability.
 
@@ -98,7 +98,7 @@ The dependency relationship represents a using relationship, in that the Web use
 
 A *generalisation* is a specialisation/generalisation relationship in which the specialised element (the child) builds on the generalised element (the parent). A generalisation is drawn as a solid line with a closed arrowhead.
 
-{% include pop src="/assets/images/uml2/class-hierarchy.drawio.svg" caption="Example Generalisations and Realisation" alt="Generalisation & Realisation" %}
+{% include figure popup=true image_path="/assets/images/uml2/class-hierarchy.drawio.svg" caption="Example Generalisations and Realisation" alt="Generalisation & Realisation" %}
 
 ## Realisations
 
@@ -108,4 +108,4 @@ A *realisation* is a semantic relationship between classifiers, wherein one clas
 
 In the above Java class hierarchy, the class `Thread` realises `Runnable`. The `Runnable` interface is implemented by the `Thread` class.
 
-{% include pop src="/assets/images/uml2/use-cases-collaborations.drawio.svg" caption="Example Use Case Realisations" alt="Realisation" %}
+{% include figure popup=true image_path="/assets/images/uml2/use-cases-collaborations.drawio.svg" caption="Example Use Case Realisations" alt="Realisation" %}

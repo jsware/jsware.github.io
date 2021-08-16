@@ -32,7 +32,7 @@ A sequence diagram is a kind of interaction diagram. Interaction diagrams show t
 
 An example Sequence diagram is shown below, generated using [PlantUML](using-platuml.html):
 
-{% include pop src="http://www.plantuml.com/plantuml/svg/TP31QiCm44Jl-eevzPOV2AKaE3q4IWCDeMVPtZGYAsqghqpxzvKJKIpI7cpGxEYDPbU3sgZ9ir6dJ6ZOTMSye15cwjISN4yuYcWhNyPsAX67WQ8nthfmZDOJzlIPA7I4ZRCVMJ6J0Oidl5Exn1lbqqZOAdcJbMcmpnXQeZbHpig7xdoTF2uMPNGJyK8ZyM0iQn7MetLiMoO3rAmIKsZ0dxnYwWsk9IR3_95MdGIy9jzID3cuq708TfPRtzmbXHoByJb6YTaY5yN-GfspZ5tiQTA0QYrD6bGynNjVNUoc_zR2JRvYRAIJfE5VJtxZtBGXTYF5xrAmXfMmDRDqLWdRq4eA_OnPBRH4pb7rMkxhrNuAlPc-LVubppy0" alt="Sequence Diagram" caption="An example sequence diagram" %}
+{% include figure popup=true image_path="http://www.plantuml.com/plantuml/svg/TP31QiCm44Jl-eevzPOV2AKaE3q4IWCDeMVPtZGYAsqghqpxzvKJKIpI7cpGxEYDPbU3sgZ9ir6dJ6ZOTMSye15cwjISN4yuYcWhNyPsAX67WQ8nthfmZDOJzlIPA7I4ZRCVMJ6J0Oidl5Exn1lbqqZOAdcJbMcmpnXQeZbHpig7xdoTF2uMPNGJyK8ZyM0iQn7MetLiMoO3rAmIKsZ0dxnYwWsk9IR3_95MdGIy9jzID3cuq708TfPRtzmbXHoByJb6YTaY5yN-GfspZ5tiQTA0QYrD6bGynNjVNUoc_zR2JRvYRAIJfE5VJtxZtBGXTYF5xrAmXfMmDRDqLWdRq4eA_OnPBRH4pb7rMkxhrNuAlPc-LVubppy0" alt="Sequence Diagram" caption="An example sequence diagram" %}
 
 ## Communication Diagrams
 
@@ -42,7 +42,7 @@ A communication diagram is an interaction diagram that emphasises the structural
 
 A state machine diagram shows the state machine for part of a system, illustrating the states, transitions, events and activities involved. A state machine diagram shows the dynamic view of a system, illustrating the flow of control from state to state within a single object.
 
-{% include pop src="/assets/images/uml2/state.drawio.svg" alt="State Machine" caption="A simple state machine" %}
+{% include figure popup=true image_path="/assets/images/uml2/state.drawio.svg" alt="State Machine" caption="A simple state machine" %}
 
 ## Activity Diagrams
 

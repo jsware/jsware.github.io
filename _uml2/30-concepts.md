@@ -21,5 +21,5 @@ There are four types of things in the UML: structural things, behavioural things
 
 *	**Annotation things** are the explanatory parts of UML models. These are the comments you may apply to describe, illuminate and remark about any element in a model.
 
-{% include pop src="/assets/images/uml2/things.drawio.svg" alt="UML Things" caption="Things of The UML" %}
+{% include figure popup=true image_path="/assets/images/uml2/things.drawio.svg" alt="UML Things" caption="Things of The UML" %}
 

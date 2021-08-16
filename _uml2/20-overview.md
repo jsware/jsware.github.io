@@ -69,7 +69,7 @@ In The UML, software architecture is the organisational structure of a system, i
 
 The architecture of a software-intensive system can be best described by five interlocking views; the Use Case View, Design View, Interaction View, Implementation View and Deployment View.  Each view is a projection into the organisation, structure and behaviour of the system from a particular vantage point.
 
-{% include pop src="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
+{% include figure popup=true image_path="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
 
 The UML architectural views align with the [4+1 Architectural View Model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) by Philippe Krutchen:
 
@@ -91,7 +91,7 @@ Use case driven means that use cases are the primary means by which a system's d
 
 The Unified Process is one such lifecycle that meets the above criteria.
 
-{% include pop src="/assets/images/uml2/unified-process.drawio.svg" alt="The Unified Process" caption="The Unified Process phases and workflows" %}
+{% include figure popup=true image_path="/assets/images/uml2/unified-process.drawio.svg" alt="The Unified Process" caption="The Unified Process phases and workflows" %}
 
 The Unified Process can be broken down into phases. Each phase represents a span of time between two major milestones of the process that meet a well-defined set of objectives. There are four phases in the Unified Process: *inception*, *elaboration*, *construction* and *transition*.
 

@@ -12,7 +12,7 @@ header:
 ---
 The architecture of a software-intensive system can be best described by five interlocking views: the use case (or scenario) view, design (or logical) view, interaction (or process) view, implementation (or development) view and deployment (or physical) view. Each view is a projection into the organisation and structure of the system from a particular vantage point.
 
-{% include pop src="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
+{% include figure popup=true image_path="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
 
 The UML architectural view model is based on the ["4+1 Architectural View Model"](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf) designed by Philippe Krutchen. The 4+1 model uses different terms than UML / UP for identifying the same view.
 
@@ -30,7 +30,7 @@ The use case view of a system encompasses behaviour of the system as seen by its
 
 The following diagram illustrates a ficticious Click & Collect system:
 
-{% include pop src="/assets/images/uml2/use-case-view.drawio.svg" alt="Use Case (Scenarios) View" caption="Capturing a system's use-case scenarios" %}
+{% include figure popup=true image_path="/assets/images/uml2/use-case-view.drawio.svg" alt="Use Case (Scenarios) View" caption="Capturing a system's use-case scenarios" %}
 
 ## Design (Logical) View
 
@@ -38,9 +38,9 @@ The design view of a system encompasses the classes, interfaces and collaboratio
 
 The following example shows systems involved in Click & Collect and a composite structure for the Store Systems.
 
-{% include pop src="/assets/images/uml2/logical-design-view.drawio.svg" alt="Logical (Design) View" caption="Capturing a system's logical design" %}
+{% include figure popup=true image_path="/assets/images/uml2/logical-design-view.drawio.svg" alt="Logical (Design) View" caption="Capturing a system's logical design" %}
 
-{% include pop src="/assets/images/uml2/composite-structure.drawio.svg" alt="Logical (Design) View" caption="Capturing a system's compsoite structure" %}
+{% include figure popup=true image_path="/assets/images/uml2/composite-structure.drawio.svg" alt="Logical (Design) View" caption="Capturing a system's compsoite structure" %}
 
 ## Interaction (Process) View
 
@@ -48,7 +48,7 @@ The interaction view of a system shows the flow of control among its various par
 
 Interactions may also use sequence diagrams, for example:
 
-{% include pop src="http://www.plantuml.com/plantuml/svg/TLB1IWCn5BpdAmO4RpruBIAjsme5iM0fdjzcNzkmRvEQJHRzUxDja0tLmovaPZBpvf557yY7s8aA9WYZ4gDRtADo8go3wbjZp-IfGqswFNeNRPCuvt7tyh1UhvxLoJICWtEXTb-AT4ZKlcUlL4V67j9Dneu_8rlDM1aw9aID0ioUyC7r7E-SJWDZ4xXJ2Hc9NRBXEQeJwtOywFR2FCvccRg2UEM1fLSa8GFBWOnGBQo0qYl7P3VWJxyiQXGk9KR1T4WAnbcynQvchr9mTiFUqYItlBcD0UwGXMlldKyITqu3draR4cnzmoC656kfOXzSn_vMLnQxuh-rS8KlDkJvv6B_hoRDE1MjMCp0_ZiNBCros5B4QGgCZQt7jp3nB1UQ8oTMvLfkwvLwjeqQlqNwnKv-0000" alt="Sequence Diagrams" caption="An example PlantUML sequence diagram" %}
+{% include figure popup=true image_path="http://www.plantuml.com/plantuml/svg/TLB1IWCn5BpdAmO4RpruBIAjsme5iM0fdjzcNzkmRvEQJHRzUxDja0tLmovaPZBpvf557yY7s8aA9WYZ4gDRtADo8go3wbjZp-IfGqswFNeNRPCuvt7tyh1UhvxLoJICWtEXTb-AT4ZKlcUlL4V67j9Dneu_8rlDM1aw9aID0ioUyC7r7E-SJWDZ4xXJ2Hc9NRBXEQeJwtOywFR2FCvccRg2UEM1fLSa8GFBWOnGBQo0qYl7P3VWJxyiQXGk9KR1T4WAnbcynQvchr9mTiFUqYItlBcD0UwGXMlldKyITqu3draR4cnzmoC656kfOXzSn_vMLnQxuh-rS8KlDkJvv6B_hoRDE1MjMCp0_ZiNBCros5B4QGgCZQt7jp3nB1UQ8oTMvLfkwvLwjeqQlqNwnKv-0000" alt="Sequence Diagrams" caption="An example PlantUML sequence diagram" %}
 
 ## Deployment (Physical) View
 

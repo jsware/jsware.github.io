@@ -17,7 +17,7 @@ The UML views are used to identify useful subsets of UML modelling constructs th
 
 This diagram illustrates the relationship between UML Views and 4+1 Architecture views (given in brackets):
 
-{% include pop src="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
+{% include figure popup=true image_path="/assets/images/uml2/architectural-views.drawio.svg" alt="Architectural Views" caption="Capturing a system's architecture" %}
 
 As such architectural views and UML views serve different purposes when modelling systems.
 

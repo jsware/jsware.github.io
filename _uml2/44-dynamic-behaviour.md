@@ -37,7 +37,7 @@ The interaction view is shown using two diagrams that focus on different aspects
 
 A sequence diagram is an interaction diagram that emphasises the time-ordering of messages.
 
-{% include pop src="http://www.plantuml.com/plantuml/svg/TLB1IWCn5BpdAmO4RpruBIAjsme5iM0fdjzcNzkmRvEQJHRzUxDja0tLmovaPZBpvf557yY7s8aA9WYZ4gDRtADo8go3wbjZp-IfGqswFNeNRPCuvt7tyh1UhvxLoJICWtEXTb-AT4ZKlcUlL4V67j9Dneu_8rlDM1aw9aID0ioUyC7r7E-SJWDZ4xXJ2Hc9NRBXEQeJwtOywFR2FCvccRg2UEM1fLSa8GFBWOnGBQo0qYl7P3VWJxyiQXGk9KR1T4WAnbcynQvchr9mTiFUqYItlBcD0UwGXMlldKyITqu3draR4cnzmoC656kfOXzSn_vMLnQxuh-rS8KlDkJvv6B_hoRDE1MjMCp0_ZiNBCros5B4QGgCZQt7jp3nB1UQ8oTMvLfkwvLwjeqQlqNwnKv-0000" alt="Sequence Diagrams" caption="Example sequence diagram using PlantUML" %}
+{% include figure popup=true image_path="http://www.plantuml.com/plantuml/svg/TLB1IWCn5BpdAmO4RpruBIAjsme5iM0fdjzcNzkmRvEQJHRzUxDja0tLmovaPZBpvf557yY7s8aA9WYZ4gDRtADo8go3wbjZp-IfGqswFNeNRPCuvt7tyh1UhvxLoJICWtEXTb-AT4ZKlcUlL4V67j9Dneu_8rlDM1aw9aID0ioUyC7r7E-SJWDZ4xXJ2Hc9NRBXEQeJwtOywFR2FCvccRg2UEM1fLSa8GFBWOnGBQo0qYl7P3VWJxyiQXGk9KR1T4WAnbcynQvchr9mTiFUqYItlBcD0UwGXMlldKyITqu3draR4cnzmoC656kfOXzSn_vMLnQxuh-rS8KlDkJvv6B_hoRDE1MjMCp0_ZiNBCros5B4QGgCZQt7jp3nB1UQ8oTMvLfkwvLwjeqQlqNwnKv-0000" alt="Sequence Diagrams" caption="Example sequence diagram using PlantUML" %}
 
 Each role is shown as a vertical lifeline representing the role over time through the entire interaction. Messages are shown as arrows between the lifelines. Sequence diagrams can show control constructs such as loops, conditionals and parallel execution.
 
