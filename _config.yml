@@ -22,10 +22,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 minimal_mistakes_skin: default
 search: true
+related_threshold: 1
+related_limit: 4
 
 # Build settings
 markdown: kramdown
-remote_theme: jsware/minimal-mistakes
+remote_theme: jsware/modified-mistakes
 
 # Outputting
 permalink: pretty
@@ -136,12 +138,15 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       related: true
+      sidebar:
+        nav: "side"
+        
   # T-800 pages
   - scope:
       path: ""

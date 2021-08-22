@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 image: &image 'http://www.plantuml.com/plantuml/svg/TLB1IWCn5BpdAmO4RpruBIAjsme5iM0fdjzcNzkmRvEQJHRzUxDja0tLmovaPZBpvf557yY7s8aA9WYZ4gDRtADo8go3wbjZp-IfGqswFNeNRPCuvt7tyh1UhvxLoJICWtEXTb-AT4ZKlcUlL4V67j9Dneu_8rlDM1aw9aID0ioUyC7r7E-SJWDZ4xXJ2Hc9NRBXEQeJwtOywFR2FCvccRg2UEM1fLSa8GFBWOnGBQo0qYl7P3VWJxyiQXGk9KR1T4WAnbcynQvchr9mTiFUqYItlBcD0UwGXMlldKyITqu3draR4cnzmoC656kfOXzSn_vMLnQxuh-rS8KlDkJvv6B_hoRDE1MjMCp0_ZiNBCros5B4QGgCZQt7jp3nB1UQ8oTMvLfkwvLwjeqQlqNwnKv-0000'
 permalink: /uml2/dynamic-behaviour.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

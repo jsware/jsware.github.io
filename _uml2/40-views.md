@@ -4,6 +4,8 @@ excerpt: Architectural views and UML views.
 classes: wide
 image: &image /assets/images/uml2/views.drawio.svg
 permalink: /uml2/views.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

@@ -1,6 +1,10 @@
 ---
 title: "Tools of the Trade"
 image: &image /assets/images/t800/tools.jpg
+categories:
+  - Terminator
+tags:
+  - Models
 permalink: /terminator/tools.html
 header:
   teaser: *image

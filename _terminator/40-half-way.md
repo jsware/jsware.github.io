@@ -2,6 +2,10 @@
 title: "Half Way There"
 excerpt: My T-800 is half completed. He's half armless (h-armless) and almost completely legless.
 image: &image /assets/images/t800/pack-6-complete.jpg
+categories:
+  - Terminator
+tags:
+  - Models
 permalink: /terminator/half-way.html
 header:
   teaser: *image

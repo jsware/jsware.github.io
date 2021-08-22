@@ -1,9 +1,6 @@
 main:
   - title: "Collections"
     url: /collections/
-  # - title: "T-800"
-  #   url: /terminator/
-  #   description: Terminator T-800 build.
   - title: "Categories"
     url: /categories/
   - title: "Tags"
@@ -13,8 +10,25 @@ main:
   - title: "About"
     url: /about.html
 
+side:
+  - title: "Jekyll"
+    children:
+      - title: Modified Mistakes
+        url: https://github.com/jsware/modified-mistakes
+      - title: Redirect Plugin
+        url: "https://www.jsware.io/jekyll-redirect-html/"
+  - title: "Scripts"
+    children:
+      - title: Rotate-Tabs.ps1
+        url: https://gist.github.com/JohnScottUK/abc0c9af6ec75497e693b65346a30e35
+      - title: Shlog
+        url: "https://www.jsware.io/shlog/"
+      - title: Template.sh
+        url: https://gist.github.com/JohnScottUK/5288d8ef6f6a0e3c15bf190fb0378b3d
+
 t800:
   - title: T-800 Build Diary
+    url: /terminator/
     children:
       - title: The T-800
         url: /terminator/intro.html
@@ -26,19 +40,13 @@ t800:
         url: /terminator/tools.html
       - title: Half Way There
         url: /terminator/half-way.html
-  - title: Pack 7
+  - title: Pack 7+8
     children:
-  - title: Pack 8
+      - title: Right Side Done
+        url: /terminator/packs-7-8.html
+  - title: Pack 9+10
     children:
-  - title: Pack 8
-    children:
-  - title: Pack 9
-    children:
-  - title: Pack 10
-    children:
-  - title: Pack 11
-    children:
-  - title: Pack 12
+  - title: Pack 11+12
     children:
   - title: Plasma Rifle
     children:

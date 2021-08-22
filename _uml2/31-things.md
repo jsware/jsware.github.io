@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 image: &image /assets/images/uml2/things.drawio.svg
 permalink: /uml2/things.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

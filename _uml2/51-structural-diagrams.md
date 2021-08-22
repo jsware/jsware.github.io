@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 image: &image /assets/images/uml2/classes.drawio.svg
 permalink: /uml2/structural-diagrams.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

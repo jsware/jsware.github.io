@@ -4,6 +4,8 @@ excerpt: Deployment diagrams.
 classes: wide
 image: &image /assets/images/uml2/components-nodes.drawio.svg
 permalink: /uml2/physical-layout.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image
