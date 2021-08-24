@@ -42,6 +42,7 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
+    label: comment
 
 collections:
   terminator:
