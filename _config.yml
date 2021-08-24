@@ -37,6 +37,12 @@ timezone: Europe/London
 
 breadcrumbs: true
 
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
 collections:
   terminator:
     output: true
@@ -74,9 +80,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-redirect-from
-
-whitelist:
   - jekyll-redirect-from
 
 author:
@@ -136,7 +139,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       show_date: true
       related: true
@@ -147,6 +150,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      read_time: true
+      comments: true
       related: true
       sidebar:
         nav: "side"
@@ -158,6 +163,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      read_time: true
+      comments: true
       share: true
       related: true
       sidebar:
@@ -169,6 +176,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      read_time: true
+      comments: true
       share: true
       related: true
       sidebar:

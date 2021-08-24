@@ -6,6 +6,7 @@ entries_layout: grid
 permalink: /tags/
 layout: tags
 author_profile: true
+comments: false
 sidebar:
   nav: ""
 ---

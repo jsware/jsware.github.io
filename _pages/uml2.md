@@ -7,6 +7,7 @@ entries_layout: grid
 collection: uml2
 classes: wide
 author_profile: false
+comments: false
 header:
   teaser: *image
   overlay_image: *image
