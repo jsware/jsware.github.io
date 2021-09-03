@@ -4,6 +4,8 @@ excerpt: Quickly describe UML diagrams in text and PlantUML will convert them in
 classes: wide
 image: &image https://upload.wikimedia.org/wikipedia/commons/3/30/Plantuml_Logo.svg
 permalink: /uml2/using-platuml.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

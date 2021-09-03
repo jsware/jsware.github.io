@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 image: &image 'http://www.plantuml.com/plantuml/svg/TLB1QiCm3BtxAmI3tNeOx5J6Q4bRA8mLDihEIgAk9hPL53jiVpybDIEcsw45l_Vqdfx8geyeCNbd-iw62mfwgB7fFeLJQ2jsB72tUzmzRBRcR5k24tEi-SjW4vKwzYJ6UBJXf9C4bRDD1_UWWuwQQ4OU5i_mGVKItaXV0y4-aZUAZCIxkj0IgZFfd3wQRcAU5ejCNK5ueO5SRz353Am7j0vhHmQWzCensGtWJxyiQWrC7IR1R4cCbWEy9b-J60tERd0CECij9myf0f-oS2l2eXA-wC8NQYmwE4XB8mPGdALAVMHFSgihYrtntrfmXISR53fpwl_Lw8vpqOQS7KY-Sy7IB8UjdUC68y4-rEEdCFCi3veZPrRbMMxhbNeAhHb_A_rBtlq0'
 permalink: /uml2/behavioural-diagrams.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

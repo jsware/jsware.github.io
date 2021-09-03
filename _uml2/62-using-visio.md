@@ -4,6 +4,8 @@ excerpt: Visio is a very common modelling tool. Visio has its own stencils, but 
 classes: wide
 image: &image /assets/images/uml2/visio.drawio.svg
 permalink: /uml2/using-visio.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image

@@ -4,6 +4,8 @@ excerpt: Draw.IO (aka Diagrams.net) provides excellent browser-based and desktop
 classes: wide
 image: &image /assets/images/uml2/draw-io.drawio.svg
 permalink: /uml2/using-draw-io.html
+tags:
+  - UML
 header:
   teaser: *image
   overlay_image: *image
