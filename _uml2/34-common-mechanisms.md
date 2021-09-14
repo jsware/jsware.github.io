@@ -5,8 +5,8 @@ toc: true
 toc_sticky: true
 image: &image /assets/images/uml2/common-mechanisms.drawio.svg
 permalink: /uml2/common-mechanisms.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image

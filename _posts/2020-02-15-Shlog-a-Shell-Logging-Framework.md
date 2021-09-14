@@ -1,10 +1,8 @@
 ---
 title: "A shell script logging framework"
 image: &image /assets/images/log-file.png
-categories:
-  - Bash
-tags:
-  - Programming
+categories: Programming
+tags: Bash Scripting
 header:
   teaser: *image
 toc: true

@@ -2,8 +2,8 @@
 title: "Introduction"
 classes: wide
 image: &image /assets/images/uml2/uml-logo.drawio.svg
-tags:
-  - UML
+categories: Architecture
+tags: UML
 excerpt: An Abridged Guide to the Unified Modelling Language 2
 permalink: /uml2/intro.html
 header:

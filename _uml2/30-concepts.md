@@ -4,8 +4,8 @@ excerpt: "The UML has three main concepts: things, relationships and diagrams."
 classes: wide
 image: &image /assets/images/uml2/concepts.drawio.svg
 permalink: /uml2/concepts.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image

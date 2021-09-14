@@ -4,8 +4,8 @@ excerpt: What is a model? Why we model. UML, Architecture and SDLC. Systems, mod
 toc: true
 toc_sticky: true
 image: &image /assets/images/uml2/unified-process.drawio.svg
-tags:
-  - UML
+categories: Architecture
+tags: UML
 permalink: /uml2/overview.html
 header:
   teaser: *image

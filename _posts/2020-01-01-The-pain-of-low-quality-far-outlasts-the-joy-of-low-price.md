@@ -1,10 +1,8 @@
 ---
 title: "The pain of low quality far outlasts the joy of low price"
 image: &image /assets/images/franklin-quote.jpg
-categories:
-  - General
-tags:
-  - Blog
+categories: General
+tags: Architecture Books
 header:
   teaser: *image
 ---

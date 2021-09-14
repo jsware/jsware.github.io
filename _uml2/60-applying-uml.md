@@ -4,8 +4,8 @@ excerpt: "It's only through using The UML that you gain experience of it and bec
 classes: wide
 image: &image /assets/images/uml2/applying-uml.drawio.svg
 permalink: /uml2/applying-uml.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image

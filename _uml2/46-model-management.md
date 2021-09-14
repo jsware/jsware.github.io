@@ -4,8 +4,8 @@ excerpt: Package diagrams and profiles.
 classes: wide
 image: &image /assets/images/uml2/package-diagrams.drawio.svg
 permalink: /uml2/model-management.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image

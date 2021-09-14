@@ -22,8 +22,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 minimal_mistakes_skin: default
 search: true
-related_threshold: 1
+
+related_by: tags or categories
+related_categories: 1
+related_tags: 1
 related_limit: 4
+related_template: archive-single.html
+related_layout: grid
 
 # Build settings
 markdown: kramdown

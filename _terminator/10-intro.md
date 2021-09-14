@@ -1,10 +1,8 @@
 ---
 title: "The T-800"
 image: &image /assets/images/t800/pack-3-head.jpg
-categories:
-  - Terminator
-tags:
-  - Models
+categories: Terminator
+tags: Models
 excerpt: The official 1:2-scale model of the iconic T-800 Terminator Endoskeleton
 permalink: /terminator/intro.html
 header:

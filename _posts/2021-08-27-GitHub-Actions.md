@@ -2,12 +2,8 @@
 title: "Awesome Actions!"
 excerpt: GitHub Actions and Python scripting come together to produce an auto-updating GitHub Profile page.
 image: &image https://avatars.githubusercontent.com/u/44036562?s=200&v=4
-categories:
-  - Programming
-tags:
-  - Python
-  - DevOps
-  - GitHub
+categories: Programming
+tags: GitHub Scripting
 header:
   teaser: *image
   overlay_image: *image

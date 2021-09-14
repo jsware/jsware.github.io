@@ -4,8 +4,8 @@ excerpt: Structural classification, dynamic behaviour, physical layout, model ma
 classes: wide
 image: &image /assets/images/uml2/uml-views.drawio.svg
 permalink: /uml2/uml-views.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image

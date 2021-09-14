@@ -1,10 +1,8 @@
 ---
 title: "Migrating to Minimal Mistakes"
 image: &image /assets/images/mm-teaser.jpg
-categories:
-  - General
-tags:
-  - Blog
+categories: Programming
+tags: Jekyll Scripting
 header:
   teaser: *image
   overlay_color: "#5e616c"

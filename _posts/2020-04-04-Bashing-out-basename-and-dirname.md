@@ -1,10 +1,8 @@
 ---
 title: "Bashing out basename and dirname"
 image: &image /assets/images/gnu-bash.jpg
-categories:
-  - Bash
-tags:
-  - Programming
+categories: Programming
+tags: Bash Scripting
 header:
   teaser: *image
 ---

@@ -2,10 +2,8 @@
 title: "From Ring & Reserve to Click & Collect"
 image: &image /assets/images/click-collect.jpg
 classes: wide
-categories:
-  - General
-tags:
-  - Blog
+categories: General
+tags: Reviews
 header:
   teaser: *image
   overlay_image: *image

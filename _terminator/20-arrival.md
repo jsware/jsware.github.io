@@ -1,10 +1,8 @@
 ---
 title: "Boxes Boxes"
 image: &image /assets/images/t800/arrival.jpg
-categories:
-  - Terminator
-tags:
-  - Models
+categories: Terminator
+tags: Models
 permalink: /terminator/arrival.html
 header:
   teaser: *image

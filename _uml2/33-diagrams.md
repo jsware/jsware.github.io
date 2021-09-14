@@ -4,8 +4,8 @@ excerpt: "Thirteen diagram types in two main classes: structural and behavioural
 classes: wide
 image: &image /assets/images/uml2/uml-diagrams.drawio.svg
 permalink: /uml2/uml-diagrams.html
-tags:
-  - UML
+categories: Architecture
+tags: UML
 header:
   teaser: *image
   overlay_image: *image
