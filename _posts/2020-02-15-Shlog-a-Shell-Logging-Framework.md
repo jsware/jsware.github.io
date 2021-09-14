@@ -6,6 +6,7 @@ tags: Bash Scripting
 header:
   teaser: *image
 toc: true
+redirect_from: /bash/2020/02/15/Shlog-a-Shell-Logging-Framework/
 ---
 "`ShLog`" is a shell script logging framework. Check out the framework [here](https://github.com/jsware/shlog).
 

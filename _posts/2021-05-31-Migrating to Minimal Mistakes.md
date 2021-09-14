@@ -10,6 +10,7 @@ header:
   actions:
     - label: "Check it out"
       url: "https://mmistakes.github.io/minimal-mistakes/"
+redirect_from: /general/2021/05/31/Migrating to Minimal Mistakes/
 ---
 Minimal mistakes is a great Jekyll theme. Perfect for building personal sites, blogs, and portfolios.
 

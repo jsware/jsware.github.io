@@ -5,6 +5,7 @@ categories: Programming
 tags: Bash Scripting
 header:
   teaser: *image
+redirect_from: /bash/2020/04/04/Bashing-out-basename-and-dirname/
 ---
 To find out the file and path components of a full filename, code similar to the following is often used:
 ```sh
