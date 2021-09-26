@@ -19,6 +19,10 @@ side:
         url: "https://www.jsware.io/jekyll-related-posts/"
       - title: Modified Mistakes
         url: https://github.com/jsware/modified-mistakes
+  - title: "JSON"
+    children:
+      - title: JSONPath-CLI
+        url: "https://www.jsware.io/jsonpath-cli/"
   - title: "Scripts"
     children:
       - title: Rotate-Tabs.ps1
