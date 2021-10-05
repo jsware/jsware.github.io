@@ -7,6 +7,7 @@ permalink: /terminator/arrival.html
 header:
   teaser: *image
   overlay_image: /assets/images/t800/arrival.jpg
+classes: wide
 ---
 (Not) Too long after ordering, a box of boxes arrived.
 

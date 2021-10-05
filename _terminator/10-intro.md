@@ -11,6 +11,7 @@ header:
   actions:
     - label: "Check it out"
       url: "https://www.agoramodels.com/terminator-t-800/"
+classes: wide
 ---
 My favourite film is James Cameron's 1984 cult movie [The Terminator](https://www.imdb.com/title/tt0088247/) with its iconic [T-800 Endoskeleton](https://terminator.fandom.com/wiki/T-800), played (until his skin is burnt off in a burning tanker cab) by Arnold Schwarzenegger.
 

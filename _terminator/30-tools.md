@@ -7,6 +7,7 @@ permalink: /terminator/tools.html
 header:
   teaser: *image
   overlay_image: /assets/images/t800/tools.jpg
+classes: wide
 ---
 Model assembly needs some tools, only some of which were in my toolbox.
 
