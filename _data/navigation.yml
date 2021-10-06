@@ -19,10 +19,12 @@ side:
         url: "https://www.jsware.io/jekyll-related-posts/"
       - title: Modified Mistakes
         url: https://github.com/jsware/modified-mistakes
-  - title: "JSON"
+  - title: "Tools"
     children:
       - title: JSONPath-CLI
         url: "https://www.jsware.io/jsonpath-cli/"
+      - title: RAML Editor
+        url: "https://www.jsware.io/raml-editor/"
   - title: "Scripts"
     children:
       - title: Rotate-Tabs.ps1
