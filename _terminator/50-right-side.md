@@ -4,7 +4,7 @@ excerpt: My T-800 is coming along nicely. I'll soon be crossing over to the othe
 image: &image /assets/images/t800/toes.jpg
 categories: Terminator
 tags: Models
-permalink: /terminator/packs-7-8.html
+permalink: /terminator/right-side.html
 header:
   teaser: *image
   overlay_image: /assets/images/t800/six-packs-eyes.jpg

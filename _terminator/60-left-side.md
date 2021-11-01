@@ -4,7 +4,7 @@ excerpt: With the right side done, time to repeat down the left hand side.
 image: &image /assets/images/t800/almost-complete.jpg
 categories: Terminator
 tags: Models
-permalink: /terminator/packs-9-10.html
+permalink: /terminator/left-side.html
 header:
   teaser: *image
   overlay_image: *image

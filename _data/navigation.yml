@@ -51,15 +51,19 @@ t800:
   - title: Pack 7+8
     children:
       - title: Right Side Done
-        url: /terminator/packs-7-8.html
+        url: /terminator/right-side.html
   - title: Pack 9+10
     children:
-      - title: Left Side Done
-        url: /terminator/packs-9-10.html
+      - title: Left Side this Time
+        url: /terminator/left-side.html
   - title: Pack 11+12
     children:
-  - title: Plasma Rifle
+      - title: Bob's Brain!
+        url: /terminator/bobs-brain.html
+  - title: Extras
     children:
+      - title: Plasma Rifle
+      - title: Finger Mods
 
 uml2:
   - title: The UML2
