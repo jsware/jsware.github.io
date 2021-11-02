@@ -10,6 +10,7 @@ header:
   overlay_image: *image
   overlay_filter: 0.5
 classes: wide
+redirect_from: /terminator/2021/11/01/Bobs-Brain-Broke/
 ---
 Had a bit of an accident! One of the connectors on Uncle Bob's brain snapped off
 whilst pluggin in his eyes.
