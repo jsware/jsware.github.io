@@ -60,10 +60,12 @@ t800:
     children:
       - title: Bob's Brain!
         url: /terminator/bobs-brain.html
+      - title: All About that Base
+        url: /terminator/all-about-that-base.html
   - title: Extras
     children:
-      - title: Plasma Rifle
       - title: Finger Mods
+      - title: Plasma Rifle
 
 uml2:
   - title: The UML2
