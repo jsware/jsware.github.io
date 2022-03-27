@@ -33,7 +33,14 @@ side:
         url: "https://www.jsware.io/shlog/"
       - title: Template.sh
         url: https://gist.github.com/JohnScottUK/5288d8ef6f6a0e3c15bf190fb0378b3d
-
+  - title: The Terminator
+    url: /terminator/
+    children:
+      - title: Rifle Mod
+        url: https://www.jsware.io/t800-rifle
+      - title: Eye Mod
+        url: https://www.jsware.io/t800-eyes
+        
 t800:
   - title: T-800 Build Diary
     url: /terminator/
@@ -64,8 +71,10 @@ t800:
         url: /terminator/all-about-that-base.html
   - title: Extras
     children:
-      - title: Finger Mods
       - title: Plasma Rifle
+        url: https://www.jsware.io/t800-rifle
+      - title: Eyes
+        url: https://www.jsware.io/t800-eyes
 
 uml2:
   - title: The UML2
