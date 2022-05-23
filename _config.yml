@@ -133,9 +133,12 @@ footer:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-29106762-2"
+    tracking_id: "G-PDGGDVPKW0"
     anonymize_ip: false
 
+feed:
+  excerpt_only: true
+  
 defaults:
   # _posts
   - scope:
