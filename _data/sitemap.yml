@@ -1,0 +1,9 @@
+subsites:
+  - jekyll-redirect-html
+  - jekyll-related-posts
+  - jsonpath-cli
+  - raml-editor
+  - shlog
+  - t800-rifle
+  - t800-eyes
+  - t800-hk
