@@ -128,7 +128,7 @@ Ricky's guide on how to use the latest tools in Cura to create a temperature fan
 
 {% include video id="5mp2vCZ2iFc" provider="youtube" %}
 
-# 6. Custom Start G-Code and Nozle Oozing during warmup
+# 6. Nozzle Oozing
 
 Whilst performing all these tuning operations, I got tired of filament oozing over the print area during homing etc. By default, Creality and Cura sliders heat the bed and nozzle to temperature and then home the X-Y-Z coordinates. Homing on my Ender 3 S1 Pro involved checking the Z height in the centre of the bed. Melted filament had a habit of dropping directly where the print was due. Not nice.
 
