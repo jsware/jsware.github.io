@@ -4,6 +4,7 @@ excerpt: I've have a new 3D printer to learn about. I have been dialing it in re
 image: &image "/assets/images/3darm.jpg"
 categories: 3DPrinting
 tags: Terminator Models
+redirect_from: /3dprinting/2023/02/08/Journey-into-3D-Printing/
 header:
   teaser: *image
   overlay_image: *image

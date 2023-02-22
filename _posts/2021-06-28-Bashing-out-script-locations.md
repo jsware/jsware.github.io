@@ -4,7 +4,7 @@ excerpt: "$(basename \"$0\") does not always give a script its own real location
 image: &image /assets/images/gnu-bash.jpg
 classes: wide
 categories: Programming
-tags: Bash Scripting
+tags: Unix Mac Bash Scripting
 header:
   teaser: *image
 redirect_from: /bash/2021/06/28/Bashing-out-script-locations/

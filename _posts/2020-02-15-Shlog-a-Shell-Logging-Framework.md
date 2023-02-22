@@ -2,7 +2,7 @@
 title: "A shell script logging framework"
 image: &image /assets/images/log-file.png
 categories: Programming
-tags: Bash Scripting
+tags: Unix Mac Bash Scripting
 header:
   teaser: *image
 toc: true

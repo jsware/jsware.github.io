@@ -3,7 +3,7 @@ title: "Calling Time on my Time Capsule"
 excerpt: My Time Capsule started making rattling, grunting, whining noises and overheating. Was it time to call time on my Time Capsule?
 image: &image https://images.unsplash.com/photo-1501139083538-0139583c060f
 categories: General
-tags: Reviews
+tags: Reviews Mac
 header:
   teaser: *image
   overlay_image: *image

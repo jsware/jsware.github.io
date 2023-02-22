@@ -3,7 +3,7 @@ title: "Bashing out Spaces"
 excerpt: "There’s no need to use tr, sed and awk to trim whitespace from variables in Bash. Here's how."
 image: &image /assets/images/gnu-bash.jpg
 categories: Programming
-tags: Bash Scripting
+tags: Unix Mac Bash Scripting
 header:
   teaser: *image
 redirect_from: /bash/2020/05/19/Bashing-out-spaces/

@@ -2,7 +2,7 @@
 title: "Bashing out basename and dirname"
 image: &image /assets/images/gnu-bash.jpg
 categories: Programming
-tags: Bash Scripting
+tags: Unix Mac Bash Scripting
 header:
   teaser: *image
 redirect_from: /bash/2020/04/04/Bashing-out-basename-and-dirname/

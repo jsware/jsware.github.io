@@ -35,7 +35,7 @@ markdown: kramdown
 remote_theme: jsware/modified-mistakes
 
 # Outputting
-permalink: pretty
+permalink: date
 paginate: 8
 paginate_path: /page:num/
 timezone: Europe/London
@@ -151,6 +151,7 @@ defaults:
       share: true
       show_date: true
       related: true
+      permalink: /blog/:year/:month/:day/:title:output_ext
   # _pages
   - scope:
       path: ""
