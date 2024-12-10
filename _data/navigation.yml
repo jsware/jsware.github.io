@@ -13,6 +13,8 @@ main:
 side:
   - title: "Jekyll"
     children:
+      - title: Docker GitHub Pages
+        url: "https://www.jsware.io/docker-github-pages/"
       - title: Redirect Plugin
         url: "https://www.jsware.io/jekyll-redirect-html/"
       - title: Related Posts Plugin
