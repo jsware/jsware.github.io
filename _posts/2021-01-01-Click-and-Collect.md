@@ -9,7 +9,7 @@ header:
   overlay_image: *image
   overlay_filter: 0.5
 ---
-10 years on I am reminded of [an article I read](https://internetretailing.net/guest-comment/guest-comment/guest-column-click-and-collect---10-years-on) from 2011 about Click & Collect.
+10 years on I am reminded of [an article I read](https://internetretailing.net/guest-column-click-and-collect-10-years-on/) from 2011 about Click & Collect.
 
 Sophie Albizua's article began with
 
@@ -38,7 +38,7 @@ Ring & Reserve used services before SOA/microservices were a thing. This allowed
 
 Each channel re-used the same network transaction calls to the store back-office systems. Transactions were null-terminated C strings with a fixed header of transaction identifier and store number. Enquiries began `IV01`, reservations `IV02`. They were routed to the correct back-office by a message broker (called a WAN server at the time) using the store number found in the fixed header.
 
-All three channels' services were named as alliterations. Of the three names - "Ring & Reserve", "Text & Take Home" and "Click & Collect" - only Click & Collect made it into the Oxford English Dictionary when they [added it](https://public.oed.com/updates/new-words-list-september-2016/) in 2016.
+All three channels' services were named as alliterations. Of the three names - "Ring & Reserve", "Text & Take Home" and "Click & Collect" - only Click & Collect made it into the Oxford English Dictionary when they [added it](https://www.oed.com/information/updates/previous-updates/2016-2/september-2016) in 2016.
 
 Over the years, when I have told this story, people have suggested we should have patented it. I am however, more pleased to have been involved in something so copied that the name Click & Collect became synonymous with that game changing capability.
 
