@@ -91,9 +91,9 @@ mintonair:
   - url: /assets/images/freshair/mint-on-air2.jpg
     image_path: /assets/images/freshair/mint-on-air2.jpg
 ---
-My son is off to University, so he gained a new laptop. With his old laptop running Windows 11 already, I now have a MacBook Air running Windows 10 I do not need.
+With another laptop running Windows 11, I now have a MacBook Air running Windows 10 I do not need.
 
-This allowed me to repurpose this much older (Mid 2011) 13" MacBook Air to run Linux. It had been [running Windows 10]({% post_url 2023-02-22-WinBook-Air %}), but with Windows 10 now [end of life](https://support.microsoft.com/en-gb/windows/windows-10-support-ends-on-october-14-2025-2ca8b313-1946-43d3-b55c-2b95b107f281) and a newer laptop running Windows 11, time to try Linux on my MacBook Air.
+This allowed me to repurpose my much older (Mid 2011) 13" MacBook Air to run Linux. It had been [running Windows 10]({% post_url 2023-02-22-WinBook-Air %}), but with Windows 10 now [end of life](https://support.microsoft.com/en-gb/windows/windows-10-support-ends-on-october-14-2025-2ca8b313-1946-43d3-b55c-2b95b107f281) and a newer laptop running Windows 11, time to try Linux on my MacBook Air.
 
 {% include figure image_path="/assets/images/freshair/mint-on-air2.jpg" popup=true alt="Mint Air" caption="Linux Mint on 2011 MacBook Air." %}
 
