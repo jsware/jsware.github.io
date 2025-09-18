@@ -13,8 +13,6 @@ main:
 side:
   - title: "Jekyll"
     children:
-      - title: Docker GitHub Pages
-        url: "https://www.jsware.io/docker-github-pages/"
       - title: Redirect Plugin
         url: "https://www.jsware.io/jekyll-redirect-html/"
       - title: Related Posts Plugin
@@ -23,6 +21,10 @@ side:
         url: https://github.com/jsware/modified-mistakes
   - title: "Tools"
     children:
+      - title: Able Buttons
+        url: "https://www.jsware.io/able-buttons/"
+      - title: Docker GitHub Pages
+        url: "https://www.jsware.io/docker-github-pages/"
       - title: JSONPath-CLI
         url: "https://www.jsware.io/jsonpath-cli/"
       - title: RAML Editor
